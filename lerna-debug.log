@@ -1,0 +1,19 @@
+0 silly input [ 'metro-with-symlink' ]
+1 silly flags { _: [ 'add' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   dev: true,
+1 silly flags   D: true,
+1 silly flags   scope: 'app',
+1 silly flags   args: [ 'metro-with-symlink' ] }
+2 verbose rootPath /Users/adrian.hartanto/Desktop/symlink-metro
+3 info version 2.11.0
+4 silly isInitialized
+5 silly isInitialized true
+6 silly existsSync /Users/adrian.hartanto/Desktop/symlink-metro/VERSION
+7 info scope app
+8 silly initialize attempt
+9 error initialize callback with error
+10 error Error: Package `metro-with-symlink` doesn't exist
+10 error     at got.then.catch.err (/usr/local/lib/node_modules/lerna/node_modules/package-json/index.js:62:11)
+10 error     at <anonymous>
